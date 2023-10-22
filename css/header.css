@@ -1,0 +1,36 @@
+header {
+  background-color: var(--surface-color);
+  height: 60px;
+  position: sticky;
+  top: 0px;
+}
+
+.logo {
+  width: 20%;
+}
+
+nav {
+  width: 80%;
+  height: 100%;
+}
+
+.nav-link {
+  height: 100%;
+}
+.nav-link li {
+  color: var(--neutral-color);
+  text-transform: uppercase;
+  margin: 2%;
+  text-transform: 1% 2%;
+}
+.nav-link li:hover {
+  border-bottom: solid 2px var(--primary-color);
+}
+
+.nav-btn span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: var(--neutral-color);
+  margin: 6px auto;
+}/*# sourceMappingURL=header.css.map */
