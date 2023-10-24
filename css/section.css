@@ -1,0 +1,43 @@
+.about-section {
+  display: flex;
+  padding: 2rem;
+}
+
+.img-container {
+  width: 40%;
+}
+
+#about-img {
+  width: 60%;
+}
+
+.description-container {
+  width: 60%;
+  flex-direction: column;
+}
+
+.description-container p {
+  width: 80%;
+  margin: 1rem 0px;
+}
+
+.skills label {
+  cursor: initial;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding: 0.8rem 1.5rem;
+  font-weight: 600;
+}
+
+.skills-list {
+  flex-direction: column;
+}
+
+.skills {
+  width: 70%;
+  padding: 2rem;
+  gap: 2rem 2rem;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=section.css.map */
