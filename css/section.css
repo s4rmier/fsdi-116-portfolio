@@ -21,7 +21,8 @@
   margin: 1rem 0px;
 }
 
-.skills label {
+.skills label,
+.technologies label {
   cursor: initial;
   color: var(--primary-color);
   background-color: var(--secondary-color);
@@ -40,4 +41,48 @@
   padding: 2rem;
   gap: 2rem 2rem;
   flex-wrap: wrap;
+}
+
+section#projects {
+  flex-direction: column;
+  padding: 2rem;
+  background-color: var(--secondary-color-900);
+}
+section#projects div.projects-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 4rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+section#projects div.projects-list div.project-card {
+  border-radius: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  width: 25rem;
+  border: 1px solid var(--secondary-color-900);
+}
+section#projects div.projects-list div.project-card a img {
+  width: 100%;
+  border-radius: 1%;
+}
+section#projects div.projects-list div.project-card a p.project-name {
+  margin: 0.5rem 0rem;
+  font-size: 1.5rem;
+}
+section#projects div.projects-list div.project-card a p.project-name ~ p {
+  font-style: italic;
+}
+section#projects div.projects-list div.project-card a .technologies {
+  justify-content: flex-start;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+section#projects div.projects-list div.project-card:hover {
+  opacity: 0.5;
+  border: 1px solid var(--secondary-color);
 }/*# sourceMappingURL=section.css.map */
