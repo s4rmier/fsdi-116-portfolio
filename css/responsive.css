@@ -4,6 +4,12 @@
   .nav-btn {
     display: none;
   }
+  section.projects-section div#projects-list,
+  section.projects-section div#experience-list,
+  section.experience-section div#projects-list,
+  section.experience-section div#experience-list {
+    gap: 4rem;
+  }
 }
 /* Tablet */
 @media (max-width: 1007px) {
