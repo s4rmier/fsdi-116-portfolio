@@ -20,11 +20,17 @@
     align-items: center;
     justify-content: center;
   }
-  .img-container {
+  .about-section .img-container {
     margin-bottom: 4rem;
   }
-  .description-container {
+  .about-section .description-container {
     width: 100%;
+  }
+  section.projects-section div#projects-list,
+  section.projects-section div#experience-list,
+  section.experience-section div#projects-list,
+  section.experience-section div#experience-list {
+    gap: 4rem 2rem;
   }
 }
 /* Mobile */
@@ -54,16 +60,22 @@
     margin: 6px auto;
   }
   /* About Section */
-  section .about-section {
+  section.about-section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  section .about-section .description-container {
+  section.about-section .description-container {
     width: 100%;
   }
-  section .about-section .description-container .skills {
+  section.about-section .description-container .skills {
     width: 100%;
+  }
+  section.projects-section div#projects-list,
+  section.projects-section div#experience-list,
+  section.experience-section div#projects-list,
+  section.experience-section div#experience-list {
+    gap: 4rem 0rem;
   }
   /* Toggle Function */
   #nav-check:not(:checked) ~ .nav-link {

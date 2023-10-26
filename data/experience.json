@@ -1,0 +1,23 @@
+[
+  {
+    "entity": "Name of the school or company 1",
+    "title": "Course name or Job position",
+    "description": "Short Description about the course or the job you performed",
+    "period": "Month YYYY - Month YYYY",
+    "technologies": ["Technology", "Or", "Skill"]
+  },
+  {
+    "entity": "Name of the school or company 2",
+    "title": "Course name or Job position",
+    "description": "Short Description about the course or the job you performed",
+    "period": "Month YYYY - Month YYYY",
+    "technologies": ["Technology", "Or", "Skill"]
+  },
+  {
+    "entity": "Name of the school or company 3",
+    "title": "Course name or Job position",
+    "description": "Short Description about the course or the job you performed",
+    "period": "Month YYYY - Month YYYY",
+    "technologies": ["Technology", "Or", "Skill"]
+  }
+]

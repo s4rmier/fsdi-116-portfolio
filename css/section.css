@@ -48,16 +48,15 @@ section#projects {
   padding: 2rem;
   background-color: var(--secondary-color-900);
 }
-section#projects div.projects-list {
+section#projects div#projects-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  gap: 4rem;
   justify-content: center;
   margin-top: 2rem;
 }
-section#projects div.projects-list div.project-card {
+section#projects div#projects-list div.project-card {
   border-radius: 1%;
   display: flex;
   flex-wrap: wrap;
@@ -65,24 +64,59 @@ section#projects div.projects-list div.project-card {
   width: 25rem;
   border: 1px solid var(--secondary-color-900);
 }
-section#projects div.projects-list div.project-card a img {
+section#projects div#projects-list div.project-card a img {
   width: 100%;
   border-radius: 1%;
 }
-section#projects div.projects-list div.project-card a p.project-name {
+section#projects div#projects-list div.project-card a p.project-name {
   margin: 0.5rem 0rem;
   font-size: 1.5rem;
 }
-section#projects div.projects-list div.project-card a p.project-name ~ p {
+section#projects div#projects-list div.project-card a p.project-name ~ p {
   font-style: italic;
 }
-section#projects div.projects-list div.project-card a .technologies {
+section#projects div#projects-list div.project-card a .technologies {
   justify-content: flex-start;
   gap: 0.5rem;
   flex-wrap: wrap;
   margin-top: 0.5rem;
 }
-section#projects div.projects-list div.project-card:hover {
+section#projects div#projects-list div.project-card:hover {
   opacity: 0.5;
   border: 1px solid var(--secondary-color);
+}
+
+section.experience-section {
+  flex-direction: column;
+  margin: 4rem;
+}
+section.experience-section #experience-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+section.experience-section #experience-list div.experience-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25rem;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+section.experience-section #experience-list div.experience-card p.experience-name {
+  margin: 0.5rem 0rem;
+  font-size: 1.5rem;
+}
+section.experience-section #experience-list div.experience-card p.experience-name ~ p {
+  font-style: italic;
+}
+section.experience-section #experience-list div.experience-card .technologies {
+  justify-content: flex-start;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+section.experience-section #experience-list div.experience-card div.technologies {
+  margin-top: 1rem;
 }/*# sourceMappingURL=section.css.map */
