@@ -1,23 +1,27 @@
 [
   {
-    "entity": "Name of the school or company 1",
-    "title": "Course name or Job position",
-    "description": "Short Description about the course or the job you performed",
-    "period": "Month YYYY - Month YYYY",
-    "technologies": ["Technology", "Or", "Skill"]
+    "entity": "Systems Technology Institute",
+    "title": "AS in Computer Technology",
+    "description": "Associates degree with computer programming concentration",
+    "period": "June 2006 - March 2008",
+    "technologies": [
+      "Operating Systems",
+      "Object Oriented Programming",
+      "Databases"
+    ]
   },
   {
-    "entity": "Name of the school or company 2",
-    "title": "Course name or Job position",
-    "description": "Short Description about the course or the job you performed",
-    "period": "Month YYYY - Month YYYY",
-    "technologies": ["Technology", "Or", "Skill"]
+    "entity": "Platt College San Diego",
+    "title": "AA in Graphics Design",
+    "description": "A degree focused on digital media and design principles",
+    "period": "Sep 2021 - June 2023",
+    "technologies": ["Typography", "Photoshop", "Illustrator", "inDesign"]
   },
   {
-    "entity": "Name of the school or company 3",
-    "title": "Course name or Job position",
+    "entity": "San Diego Global Knowledge University",
+    "title": "Full Stack Development",
     "description": "Short Description about the course or the job you performed",
     "period": "Month YYYY - Month YYYY",
-    "technologies": ["Technology", "Or", "Skill"]
+    "technologies": ["React", "Django", "Python"]
   }
 ]

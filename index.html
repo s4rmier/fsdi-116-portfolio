@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/section.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
@@ -33,14 +34,14 @@
         </div>
 
         <div class="nav-link center">
-          <a href="">About Me</a>
-          <a href="">Projects</a>
-          <a href="">Experience</a>
-          <a href="">Contact</a>
+          <a href="#section-1">About Me</a>
+          <a href="#section-2">Projects</a>
+          <a href="#section-3">Experience</a>
+          <a href="#section-4">Contact</a>
         </div>
       </nav>
     </header>
-
+    <div id="section-1" class="break"></div>
     <section class="about-section">
       <div class="img-container center">
         <img id="about-img" src="./img/logo.png" alt="" />
@@ -54,55 +55,79 @@
 
         <p></p>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Diam porttitor nisl lacinia id
-          viverra dignissim eu iaculis. In sit pharetra rutrum lacus vehicula
-          nunc sit varius. Odio ultricies faucibus aliquam dis. Dictumst
-          adipiscing tincidunt nunc rhoncus. Quisque neque sapien feugiat id
-          dapibus ut risus. Elit et amet adipiscing diam quis quam et. Rhoncus
-          sed urna dignissim ac porttitor eu arcu ut. Adipiscing turpis risus
-          nascetur felis in morbi sollicitudin id egestas. Adipiscing amet est
-          tristique volutpat in. Gravida purus aliquet tincidunt nibh ultrices
-          faucibus. Eleifend amet id cursus phasellus. Non vulputate condimentum
-          adipiscing tempor justo metus turpis diam risus. Pellentesque in
-          interdum ullamcorper amet scelerisque velit. Sem nec duis in amet.
-          <br /><br />
-          Integer nisl cursus turpis tempus eget tincidunt fringilla cras.
-          Bibendum cursus cursus enim elit at risus in etiam. Vitae a
-          condimentum et sed integer neque quam et arcu. Ac at tellus metus
-          elementum lectus. In magna eget tincidunt adipiscing scelerisque proin
-          blandit. Scelerisque velit vestibulum tincidunt pharetra nisi volutpat
-          facilisis orci ornare.
+          "Hi, my name is Romnick. I'm a web designer and full-stack developer.
+          I'm committed to writing clean, reusable, semantically sound code,
+          along with creating a hand-crafted interface that follows good UI & UX
+          design principles.<br /><br />
         </p>
 
         <div class="skills-list center">
           <h2>Skills</h2>
 
           <div class="skills center">
-            <label>Skill </label>
-            <label>Skill </label>
-            <label>Skill </label>
-            <label>Skill </label>
-            <label>Skill </label>
-            <label>Skill </label>
-            <label>Skill </label>
-            <label>Skill </label>
-            <label>Skill </label>
-            <label>Skill </label>
+            <label>HTML</label>
+            <label>CSS</label>
+            <label>JS</label>
+            <label>SASS</label>
+            <label>GSAP</label>
+            <label>Python</label>
+            <label>Django</label>
+            <label>React</label>
           </div>
         </div>
       </div>
     </section>
 
+    <div id="section-2" class="break"></div>
     <section id="projects" class="projects-section center">
       <h2>Projects</h2>
       <div id="projects-list"></div>
     </section>
 
+    <div id="section-3" class="break"></div>
     <section class="experience-section center">
       <h2>Experience</h2>
       <div id="experience-list"></div>
     </section>
 
+    <div id="section-4" class="break"></div>
+    <section class="contact-section center">
+      <h2>Contact Me</h2>
+      <p>Feel free to drop me a line below!</p>
+
+      <form action="" id="emailform">
+        <input type="text" name="" id="name" placeholder="Name" required />
+        <input type="email" name="" id="email" placeholder="Email" required />
+        <input type="text" name="" id="subject" placeholder="Subject" />
+        <textarea
+          name=""
+          id="message"
+          cols="30"
+          rows="4"
+          placeholder="Message"
+          required
+        ></textarea
+        ><br />
+        <button class="primary-button" type="submit">Send Email</button>
+      </form>
+    </section>
+
+    <footer>
+      <a href="">
+        <h2>romnick.dev</h2>
+      </a>
+
+      <nav class="nav-footer center">
+        <a href="#section-1">About</a>
+        <a href="#section-2">Projects</a>
+        <a href="#section-3">Experience</a>
+        <a href="#section-4">Contact</a>
+      </nav>
+    </footer>
+
+    <script src="./js/email.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/navigation.js"></script>
   </body>
 </html>

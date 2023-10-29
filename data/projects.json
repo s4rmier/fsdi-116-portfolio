@@ -1,26 +1,26 @@
 [
   {
-    "name": "First Project",
-    "description": "This is the description of my first project.",
+    "name": "Petzzarria",
+    "description": "The objective of this project is to facilitate the use and rendering of data in the user's local storage.",
     "year": 2023,
     "img": "../img/picture-1.jpg",
-    "url": "http://github.com",
-    "technologies": ["Tech 1", "Tech 2", "Tech 3"]
+    "url": "https://github.com/s4rmier/fsdi104-pet-salon",
+    "technologies": ["HTML", "CSS", "JS"]
   },
   {
-    "name": "Second Project",
-    "description": "This is the description of my second project.",
+    "name": "The Byte Club",
+    "description": "This is a full-stack blog project with a full user management system and CRUD functionality.",
     "year": 2023,
     "img": "../img/picture-2.jpg",
-    "url": "http://github.com",
-    "technologies": ["Tech 1", "Tech 2", "Tech 3", "Tech 4"]
+    "url": "https://github.com/s4rmier/fsdi112-113-blog",
+    "technologies": ["Django", "Python", "SQL", "Heroku"]
   },
   {
-    "name": "Third Project",
-    "description": "This is the description of my third project.",
+    "name": "Urban Bikes Co",
+    "description": "This is a full-stack project utilizing an API server to serve data with CRUD functionality.",
     "year": 2023,
     "img": "../img/picture-3.jpg",
-    "url": "http://github.com",
-    "technologies": ["Tech 1", "Tech 2", "Tech 3", "Tech 4", "Tech 5"]
+    "url": "https://github.com/s4rmier/fsdi-107-110-bike-shop",
+    "technologies": ["React", "Python", "MongoDB", "SASS"]
   }
 ]

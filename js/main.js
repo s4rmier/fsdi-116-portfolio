@@ -51,13 +51,13 @@ function createExperienceCards(json) {
   experienceListElement.innerHTML = experience.map(
     (exp) =>
       `<div class="experience-card">
-      <p class="experience-name">${exp.entity}</p>
-      <p>${exp.title}</p>
-      <p>${exp.description}</p>
-      <p><strong>${exp.period}}</strong></p>
-      <div class="technologies">
-      ${exp.technologies.map((technology) => `<label>${technology}</label>`)}
-      </div>
+        <p class="experience-name">${exp.entity}</p>
+        <p>${exp.title}</p>
+        <p>${exp.description}</p>
+        <p><strong>${exp.period}}</strong></p>
+        <div class="technologies">
+         ${exp.technologies.map((technology) => `<label>${technology}</label>`)}
+        </div>
     </div>`
   );
 }

@@ -37,7 +37,6 @@
 }
 
 .skills {
-  width: 70%;
   padding: 2rem;
   gap: 2rem 2rem;
   flex-wrap: wrap;
@@ -100,7 +99,7 @@ section.experience-section #experience-list {
 section.experience-section #experience-list div.experience-card {
   display: flex;
   flex-wrap: wrap;
-  width: 25rem;
+  width: 24rem;
   padding: 0.5rem;
   gap: 0.5rem;
 }
@@ -111,12 +110,65 @@ section.experience-section #experience-list div.experience-card p.experience-nam
 section.experience-section #experience-list div.experience-card p.experience-name ~ p {
   font-style: italic;
 }
-section.experience-section #experience-list div.experience-card .technologies {
+section.experience-section #experience-list div.experience-card div.technologies {
+  display: flex;
   justify-content: flex-start;
-  gap: 0.5rem;
+  align-items: center;
+  gap: 0.25rem;
   flex-wrap: wrap;
   margin-top: 0.5rem;
 }
-section.experience-section #experience-list div.experience-card div.technologies {
-  margin-top: 1rem;
+section.experience-section #experience-list div.experience-card div.technologies label {
+  padding: 0.75rem 1rem;
+  margin: 0.5rem;
+}
+
+section.contact-section {
+  flex-direction: column;
+  padding: 2rem;
+}
+section.contact-section form#emailform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 25rem;
+  border: 1px solid var(--secondary-color);
+  padding: 1% 3%;
+  margin-top: 2rem;
+}
+section.contact-section form#emailform input,
+section.contact-section form#emailform textarea {
+  width: 30rem;
+  border: none;
+  border-bottom: 3px solid var(--secondary-color-900);
+  height: 2.5rem;
+  outline: none;
+  background-color: var(--neutral-color);
+}
+section.contact-section form#emailform input::-moz-placeholder, section.contact-section form#emailform textarea::-moz-placeholder {
+  border-bottom: 3px solid var(--surface-color);
+}
+section.contact-section form#emailform input::placeholder,
+section.contact-section form#emailform textarea::placeholder {
+  border-bottom: 3px solid var(--surface-color);
+}
+section.contact-section form#emailform input:focus,
+section.contact-section form#emailform textarea:focus {
+  border-bottom: 3px solid var(--primary-color-300);
+}
+section.contact-section form#emailform input:hover,
+section.contact-section form#emailform textarea:hover {
+  background-color: #fff;
+}
+section.contact-section form#emailform .primary-button {
+  font-weight: bold;
+  border-radius: 1rem;
+  border: none;
+  padding: 2.5% 5%;
+  color: var(--neutral-color);
+  background: var(--primary-color);
+}
+section.contact-section form#emailform .primary-button:hover {
+  background: linear-gradient(135deg, #7f66ff 0%, #aa99ff 100%);
 }/*# sourceMappingURL=section.css.map */
