@@ -54,7 +54,7 @@ function createExperienceCards(json) {
         <p class="experience-name">${exp.entity}</p>
         <p>${exp.title}</p>
         <p>${exp.description}</p>
-        <p><strong>${exp.period}}</strong></p>
+        <p><strong>${exp.period}</strong></p>
         <div class="technologies">
          ${exp.technologies.map((technology) => `<label>${technology}</label>`)}
         </div>

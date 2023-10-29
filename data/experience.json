@@ -20,8 +20,8 @@
   {
     "entity": "San Diego Global Knowledge University",
     "title": "Full Stack Development",
-    "description": "Short Description about the course or the job you performed",
-    "period": "Month YYYY - Month YYYY",
+    "description": "A professional certificate in full stack development",
+    "period": "June 2023 - December 2023",
     "technologies": ["React", "Django", "Python"]
   }
 ]
